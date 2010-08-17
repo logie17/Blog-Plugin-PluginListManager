@@ -1,0 +1,26 @@
+---
+abstract: ~
+author:
+  - 'Logan Bell <logan@orchardtech.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.93'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Blog-Plugin-PluginListManager
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Moose: 1.08
+  Test::MockModule: 0.05
+  perl: 5.8.8
+resources:
+  license: http://opensource.org/licenses/gpl-license.php
+version: 0.01
